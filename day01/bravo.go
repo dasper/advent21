@@ -10,7 +10,7 @@ import (
 )
 
 func Bravo() {
-	file, err := advent21.OpenFile("day01/data.asc")
+	file, err := advent21.OpenFile("day01/data.txt")
 	if err != nil {
 		log.Fatal(err)
 	}

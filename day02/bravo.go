@@ -16,7 +16,7 @@ func Bravo() {
 		horizontal int
 		depth      int
 	}
-	file, err := advent21.OpenFile("day02/data.asc")
+	file, err := advent21.OpenFile("day02/data.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
