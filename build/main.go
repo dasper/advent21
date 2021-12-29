@@ -4,6 +4,7 @@ import (
 	"advent21/day01"
 	"advent21/day02"
 	"advent21/day03"
+	"advent21/day04"
 )
 
 func main() {
@@ -13,4 +14,5 @@ func main() {
 	day02.Bravo()
 	day03.Alpha()
 	day03.Bravo()
+	day04.Alpha()
 }
